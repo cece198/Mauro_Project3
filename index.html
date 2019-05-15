@@ -11,11 +11,44 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <title>CECELIA MAURO PROJECT 3</title>
 </head>
 
 <body>
 
+    <!-- ~~~~FIRST FORM~~~~
+        Text input, Button, Result (could be a div, p, etc)
+        Allow a user to enter in a number of inches into the 
+        Text Input and when a user clicks on the Button, 
+        intercept the form submission event, reach out to the 
+        service, get the proper conversion and output the 
+        number of centimeters in the result.
+    -->
+
+    <form>
+        <div class="form-group">
+            <label for="TextArea">Insert Number of Inches:</label>
+            <input class="form-control" type="text" id="TextArea" placeholder="Number goes here...">
+          </div>
+    </form>
+    <button type="button" id="submit" class="btn btn-primary">Convert</button>
+
+    <!-- ~~~~SECOND FORM~~~~
+        Text input, Button, Result (could be a div, p, etc)
+        Allow a user to enter in a number of centimeters into 
+        the Text Input and when a user clicks on the Button, 
+        intercept the form submission event, reach out to the 
+        service, get the proper conversion and output the 
+        number of inches in the result.
+    -->
+    <br><br>
+    <form>
+        <div class="form-group">
+            <label for="TextArea">Insert Number of Centimeters:</label>
+            <input class="form-control" type="text" id="TextArea2" placeholder="Number goes here...">
+          </div>
+    </form>
+    <button type="button" id="submit2" class="btn btn-primary">Convert</button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
