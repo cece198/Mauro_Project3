@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    document.getElementById("submitI").addEventListener('click', function(event){
+        event.preventDefault();
+    });
+    document.getElementById("submitC").addEventListener('click', function(event){
+        event.preventDefault();
+    });
+    //.........................
     $('#submitI').on('click', function(){
         var apiBase = 'http://statenweb.mockable.io/conversions/';
         var input1 = $('#Inches').val();
